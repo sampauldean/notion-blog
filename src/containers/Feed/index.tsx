@@ -29,8 +29,8 @@ const Feed: React.FC<Props> = ({ tags, posts }) => {
       </div>
       <div className="hidden lg:block lg:col-span-3">
         <Cards.ProfileCard />
-        <Cards.ServiceCard />
         <Cards.ContactCard />
+        <Cards.ServiceCard />
         <Footer className="pt-4" />
       </div>
     </div>

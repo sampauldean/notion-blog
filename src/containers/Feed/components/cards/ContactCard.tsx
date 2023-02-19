@@ -11,7 +11,7 @@ const ContactCard: React.FC = () => {
   return (
     <>
       <div className="p-1 mb-3 dark:text-white">💬 Contact</div>
-      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 flex flex-col">
+      <ul className="rounded-2xl bg-white dark:bg-zinc-700 p-1 mb-9 flex flex-col">
         {CONFIG.profile.github && (
           <a
             href={`https://github.com/${CONFIG.profile.github}`}
