@@ -5,7 +5,7 @@ const CONFIG = {
     image: "/avatar.svg",
     role: "frontend developer",
     bio: "Welcome, this blog is made using the Notion API",
-    email: "sampauldean@gmail.com",
+    email: "sam.pauldean@gmail.com",
     linkedin: "samuel-dean-59b6b91b1",
     github: "sampauldean",
     instagram: "sweetdemonscout",
