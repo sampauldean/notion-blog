@@ -13,11 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `notion-blog`,
-      href: "https://github.com/sampauldean/notion-blog",
-    },
-    {
-      name: `rascal-wear`,
-      href: "https://github.com/sampauldean/rascal-wear",
+      href: "https://github.com/morethanmin/morethan-log",
     },
   ],
   // blog setting (required)
