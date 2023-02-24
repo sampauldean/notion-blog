@@ -16,6 +16,7 @@ const ServiceCard: React.FC = () => {
         >
           <AiFillCodeSandboxCircle className="text-2xl" />
           <div className="text-sm">{CONFIG.projects[0].name}</div>
+          <div className="text-sm">{CONFIG.projects[1].name}</div>
         </a>
       </ul>
     </>
