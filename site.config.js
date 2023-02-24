@@ -15,6 +15,10 @@ const CONFIG = {
       name: `notion-blog`,
       href: "https://github.com/sampauldean/notion-blog",
     },
+    {
+      name: `rascal-wear`,
+      href: "https://github.com/sampauldean/rascal-wear",
+    },
   ],
   // blog setting (required)
   blog: {
