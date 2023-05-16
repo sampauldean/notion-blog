@@ -1,6 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document"
-import CONFIG from "site.config"
-import CJK from "@libs/cjk"
+import { CONFIG } from "site.config"
 
 class MyDocument extends Document {
   render() {
@@ -8,7 +7,7 @@ class MyDocument extends Document {
       <Html lang={CONFIG.lang}>
         <Head>
           <link
-            rel="preload"
+            rel="stylesheet"
             as="font"
             href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css"
           />
@@ -37,7 +36,7 @@ class MyDocument extends Document {
             </>
           )}
         </Head>
-        <body className="bg-day dark:bg-night">
+        <body className="bg-slate-100 dark:bg-black">
           <Main />
           <NextScript />
         </body>
