@@ -1,13 +1,13 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "jamey devine",
+    name: "sampauldean",
     image: "/avatar.svg",
-    role: "",
-    bio: "",
-    email: "jameydevine10@gmail.com",
-    linkedin: "jamey-devine-99920610b/",
-    github: "",
+    role: "frontend developer",
+    bio: "Welcome, this blog is made using the Notion API",
+    email: "sam.pauldean@gmail.com",
+    linkedin: "samuel-dean-59b6b91b1",
+    github: "sampauldean",
     instagram: "scootyandbeary",
   },
   projects: [
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "jamlovesdogs",
-    description: "welcome to jamlovesdogs!",
+    title: "sampauldean",
+    description: "welcome to sampauldean!",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
